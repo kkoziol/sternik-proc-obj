@@ -1,6 +1,6 @@
 package pl.sternik.kk.proc_obj.objektowo;
 
-public class Kwadrat extends Figura{
+public class Kwadrat implements Figura{
     public int a;
 
     public Kwadrat(int a) {
@@ -8,11 +8,11 @@ public class Kwadrat extends Figura{
         this.a = a;
     }
     @Override
-    double countPole() {
+    public double countPole() {
         return a * a;
     }
     @Override
-    double countObwod() {
+    public double countObwod() {
         return 4 * a;
     }
 }

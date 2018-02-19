@@ -1,6 +1,6 @@
 package pl.sternik.kk.proc_obj.objektowo;
 
-public class Prostokat extends Figura {
+public class Prostokat implements Figura {
     public int a;
     public int b;
 

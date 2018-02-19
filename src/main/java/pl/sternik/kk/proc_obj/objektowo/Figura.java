@@ -1,6 +1,6 @@
 package pl.sternik.kk.proc_obj.objektowo;
 
-public abstract class Figura {
+public interface Figura {
 	
     abstract double countPole();
     abstract double countObwod();

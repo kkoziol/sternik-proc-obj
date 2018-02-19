@@ -1,6 +1,6 @@
 package pl.sternik.kk.proc_obj.objektowo;
 
-public class Kolo extends Figura{
+public class Kolo implements Figura{
     public int r;
 
     public Kolo(int r) {
